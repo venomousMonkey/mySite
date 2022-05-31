@@ -1,0 +1,140 @@
+
+body {
+    margin: 0px auto 0px auto;
+    text-align: center; 
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 20px auto 0px auto;
+    font-size: 90px;
+    color: #66BFBF
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF
+    
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-top: 8px;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-style: dotted;
+    width: 80px; 
+    margin: 50px auto 50px auto;
+    color: grey;
+}
+
+.topContainer {
+    background-color: #FEFBE7;
+    padding-top: 100px;
+    position: relative;
+}
+
+.profilePicture {
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 175px;
+    height: 175px;
+}
+
+.topCloud {
+    position: absolute; 
+    right: 500px;
+    top: 30px;
+}
+
+.bottomCloud {
+    position: absolute; 
+    left: 500px;
+    bottom: 300px;
+}
+
+.middleContainer {
+    background-color: #DAE5D0;
+}
+
+.skillRow {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    padding-bottom: 20px;
+    text-align: left;
+    line-height: 2;
+}
+
+.monkey1 {
+    width: 25%;
+    float: left; 
+    margin-right: 30px;
+}
+
+.monkey2 {
+    width: 25%;
+    float: right; 
+    margin-left: 30px;
+}
+
+.btn {
+        -webkit-border-radius: 7;
+        -moz-border-radius: 7;
+        border-radius: 7px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 16px;
+        background: #11999E;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #FBCB0A, #FBCB0A);
+        background-image: -moz-linear-gradient(top, #FBCB0A, #FBCB0A);
+        background-image: -ms-linear-gradient(top, #FBCB0A, #FBCB0A);
+        background-image: -o-linear-gradient(top, #FBCB0A, #FBCB0A);
+        background-image: linear-gradient(to bottom, #FBCB0A, #FBCB0A);
+        text-decoration: none;
+      }
+
+.paragraphContact {
+    padding-bottom: 10px;
+}
+
+.contactMe {
+    padding: 30px 0 30px 0;
+}
+
+.footerLink {
+    color: #11999E;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    color: #FBCB0A;
+}
+
+.bottomContainer {
+    background-color: #A0BCC2; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.copyRight {
+    font-size: 75%;
+}
